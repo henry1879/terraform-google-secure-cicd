@@ -16,13 +16,13 @@
 
 variable "project_id" {
   type        = string
-  description = "Project ID for CICD Pipeline Project"
+  description = "abs-techcompany-dev-2025"
 }
 
 variable "primary_location" {
   type        = string
   description = "Region used for key-ring"
-  default     = "us-central1"
+  default     = "asia-southeast1"
 }
 
 
